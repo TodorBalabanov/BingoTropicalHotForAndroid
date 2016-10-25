@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello_world"></string>
-    <string name="app_name">"Bingo Tropical Hot "</string>
+    <string name="app_name">Bingo Tropical Hot</string>
     <string name="title_activity_splash">Bingo Tropical Hot</string>
     <string name="title_activity_game">Bingo Tropical Hot</string>
 
