@@ -4,5 +4,34 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="1440dp"
+        android:layout_height="900dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/foreground"
+        android:layout_width="1440dp"
+        android:layout_height="900dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/foreground" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="1020dp"
+        android:layout_height="135dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logo" />
 
 </RelativeLayout>

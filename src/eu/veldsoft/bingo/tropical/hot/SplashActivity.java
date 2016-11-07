@@ -34,15 +34,15 @@ public class SplashActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
 
-		/*
-		 * Activate JavaScript.
-		 */
-		((WebView) findViewById(R.id.ads)).getSettings().setJavaScriptEnabled(true);
-
-		/*
-		 * Load local web page as banner holder.
-		 */
-		((WebView) findViewById(R.id.ads)).loadUrl("file:///android_asset/banner.html");
+//		/*
+//		 * Activate JavaScript.
+//		 */
+//		((WebView) findViewById(R.id.ads)).getSettings().setJavaScriptEnabled(true);
+//
+//		/*
+//		 * Load local web page as banner holder.
+//		 */
+//		((WebView) findViewById(R.id.ads)).loadUrl("file:///android_asset/banner.html");
 
 		/*
 		 * Get splash screen timeout.

@@ -1,0 +1,1 @@
+- Use full screen for the game activity.
