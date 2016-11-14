@@ -6,182 +6,182 @@
 
     <ImageView
         android:id="@+id/background"
-        android:layout_width="1440dp"
-        android:layout_height="900dp"
+        android:layout_width="1440px"
+        android:layout_height="900px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="0px"
         android:src="@drawable/background" />
 
     <ImageView
         android:id="@+id/foreground"
-        android:layout_width="1440dp"
-        android:layout_height="900dp"
+        android:layout_width="1440px"
+        android:layout_height="900px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="0px"
         android:src="@drawable/foreground" />
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="1020dp"
-        android:layout_height="135dp"
+        android:layout_width="1020px"
+        android:layout_height="135px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="195dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginLeft="195px"
+        android:layout_marginTop="0px"
         android:src="@drawable/logo" />
 
     <ImageView
         android:id="@+id/symbol00"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="319dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="319px"
+        android:layout_marginTop="146px"
         android:src="@drawable/symbol03" />
 
     <ImageView
         android:id="@+id/symbol01"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="319dp"
-        android:layout_marginTop="281dp"
+        android:layout_marginLeft="319px"
+        android:layout_marginTop="281px"
         android:src="@drawable/symbol04" />
 
     <ImageView
         android:id="@+id/symbol02"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="319dp"
-        android:layout_marginTop="417dp"
+        android:layout_marginLeft="319px"
+        android:layout_marginTop="417px"
         android:src="@drawable/symbol05" />
 
     <ImageView
         android:id="@+id/symbol10"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="485dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="146px"
         android:src="@drawable/symbol06" />
 
     <ImageView
         android:id="@+id/symbol11"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="485dp"
-        android:layout_marginTop="281dp"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="281px"
         android:src="@drawable/symbol07" />
 
     <ImageView
         android:id="@+id/symbol12"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="485dp"
-        android:layout_marginTop="417dp"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="417px"
         android:src="@drawable/symbol08" />
 
     <ImageView
         android:id="@+id/symbol20"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="652dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="652px"
+        android:layout_marginTop="146px"
         android:src="@drawable/symbol09" />
 
     <ImageView
         android:id="@+id/symbol21"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="652dp"
-        android:layout_marginTop="281dp"
+        android:layout_marginLeft="652px"
+        android:layout_marginTop="281px"
         android:src="@drawable/symbol10" />
 
     <ImageView
         android:id="@+id/symbol22"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="652dp"
-        android:layout_marginTop="417dp"
+        android:layout_marginLeft="652px"
+        android:layout_marginTop="417px"
         android:src="@drawable/symbol11" />
 
     <ImageView
         android:id="@+id/symbol30"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="818dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="818px"
+        android:layout_marginTop="146px"
         android:src="@drawable/symbol12" />
 
     <ImageView
         android:id="@+id/symbol31"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="818dp"
-        android:layout_marginTop="281dp"
+        android:layout_marginLeft="818px"
+        android:layout_marginTop="281px"
         android:src="@drawable/symbol03" />
 
     <ImageView
         android:id="@+id/symbol32"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="818dp"
-        android:layout_marginTop="417dp"
+        android:layout_marginLeft="818px"
+        android:layout_marginTop="417px"
         android:src="@drawable/symbol04" />
 
     <ImageView
         android:id="@+id/symbol40"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="984dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="984px"
+        android:layout_marginTop="146px"
         android:src="@drawable/symbol05" />
 
     <ImageView
         android:id="@+id/symbol41"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="984dp"
-        android:layout_marginTop="281dp"
+        android:layout_marginLeft="984px"
+        android:layout_marginTop="281px"
         android:src="@drawable/symbol06" />
 
     <ImageView
         android:id="@+id/symbol42"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
+        android:layout_width="137px"
+        android:layout_height="137px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="984dp"
-        android:layout_marginTop="417dp"
+        android:layout_marginLeft="984px"
+        android:layout_marginTop="417px"
         android:src="@drawable/symbol07" />
 
 </RelativeLayout>
