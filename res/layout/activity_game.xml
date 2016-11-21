@@ -37,8 +37,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="319px"
-            android:layout_marginTop="146px"
-            android:src="@drawable/symbol03" />
+            android:layout_marginTop="146px" />
 
         <ImageView
             android:id="@+id/symbol01"
@@ -47,8 +46,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="319px"
-            android:layout_marginTop="281px"
-            android:src="@drawable/symbol04" />
+            android:layout_marginTop="281px" />
 
         <ImageView
             android:id="@+id/symbol02"
@@ -57,8 +55,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="319px"
-            android:layout_marginTop="417px"
-            android:src="@drawable/symbol05" />
+            android:layout_marginTop="417px" />
 
         <ImageView
             android:id="@+id/symbol10"
@@ -67,8 +64,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="485px"
-            android:layout_marginTop="146px"
-            android:src="@drawable/symbol06" />
+            android:layout_marginTop="146px" />
 
         <ImageView
             android:id="@+id/symbol11"
@@ -77,8 +73,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="485px"
-            android:layout_marginTop="281px"
-            android:src="@drawable/symbol07" />
+            android:layout_marginTop="281px" />
 
         <ImageView
             android:id="@+id/symbol12"
@@ -87,8 +82,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="485px"
-            android:layout_marginTop="417px"
-            android:src="@drawable/symbol08" />
+            android:layout_marginTop="417px" />
 
         <ImageView
             android:id="@+id/symbol20"
@@ -97,8 +91,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="652px"
-            android:layout_marginTop="146px"
-            android:src="@drawable/symbol09" />
+            android:layout_marginTop="146px" />
 
         <ImageView
             android:id="@+id/symbol21"
@@ -107,8 +100,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="652px"
-            android:layout_marginTop="281px"
-            android:src="@drawable/symbol10" />
+            android:layout_marginTop="281px" />
 
         <ImageView
             android:id="@+id/symbol22"
@@ -117,8 +109,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="652px"
-            android:layout_marginTop="417px"
-            android:src="@drawable/symbol11" />
+            android:layout_marginTop="417px" />
 
         <ImageView
             android:id="@+id/symbol30"
@@ -127,8 +118,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="818px"
-            android:layout_marginTop="146px"
-            android:src="@drawable/symbol12" />
+            android:layout_marginTop="146px" />
 
         <ImageView
             android:id="@+id/symbol31"
@@ -137,8 +127,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="818px"
-            android:layout_marginTop="281px"
-            android:src="@drawable/symbol03" />
+            android:layout_marginTop="281px" />
 
         <ImageView
             android:id="@+id/symbol32"
@@ -147,8 +136,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="818px"
-            android:layout_marginTop="417px"
-            android:src="@drawable/symbol04" />
+            android:layout_marginTop="417px" />
 
         <ImageView
             android:id="@+id/symbol40"
@@ -157,8 +145,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="984px"
-            android:layout_marginTop="146px"
-            android:src="@drawable/symbol05" />
+            android:layout_marginTop="146px" />
 
         <ImageView
             android:id="@+id/symbol41"
@@ -167,8 +154,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="984px"
-            android:layout_marginTop="281px"
-            android:src="@drawable/symbol06" />
+            android:layout_marginTop="281px" />
 
         <ImageView
             android:id="@+id/symbol42"
@@ -177,8 +163,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="984px"
-            android:layout_marginTop="417px"
-            android:src="@drawable/symbol07" />
+            android:layout_marginTop="417px" />
 
         <ImageView
             android:id="@+id/bingocard01"
@@ -249,7 +234,7 @@
             android:layout_marginLeft="255px"
             android:layout_marginTop="568px"
             android:src="@drawable/messagebar" />
-        
+
         <ImageView
             android:id="@+id/payoutbutton"
             android:layout_width="136px"
@@ -388,7 +373,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="260px"
             android:layout_marginTop="324px"
-            android:src="@drawable/line01" />
+            android:src="@drawable/line01"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line02"
@@ -398,7 +384,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="264px"
             android:layout_marginTop="192px"
-            android:src="@drawable/line02" />
+            android:src="@drawable/line02"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line03"
@@ -408,7 +395,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="256px"
             android:layout_marginTop="457px"
-            android:src="@drawable/line03" />
+            android:src="@drawable/line03"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line04"
@@ -418,7 +406,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="266px"
             android:layout_marginTop="136px"
-            android:src="@drawable/line04" />
+            android:src="@drawable/line04"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line05"
@@ -428,7 +417,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="256px"
             android:layout_marginTop="203px"
-            android:src="@drawable/line05" />
+            android:src="@drawable/line05"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line06"
@@ -438,7 +428,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="256px"
             android:layout_marginTop="232px"
-            android:src="@drawable/line06" />
+            android:src="@drawable/line06"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line07"
@@ -448,7 +439,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="253px"
             android:layout_marginTop="232px"
-            android:src="@drawable/line07" />
+            android:src="@drawable/line07"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line08"
@@ -458,7 +450,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="256px"
             android:layout_marginTop="200px"
-            android:src="@drawable/line08" />
+            android:src="@drawable/line08"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/line09"
@@ -468,7 +461,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="261px"
             android:layout_marginTop="203px"
-            android:src="@drawable/line09" />
+            android:src="@drawable/line09"
+            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/leftmark01"
@@ -667,8 +661,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="1212px"
-            android:layout_marginTop="119px"
-            android:src="@drawable/bingoball01" />
+            android:layout_marginTop="119px" />
 
         <ImageView
             android:id="@+id/foreground"
