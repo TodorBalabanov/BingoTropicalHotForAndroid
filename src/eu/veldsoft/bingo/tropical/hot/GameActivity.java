@@ -1,5 +1,9 @@
 package eu.veldsoft.bingo.tropical.hot;
 
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -144,6 +148,11 @@ public class GameActivity extends Activity {
 	private int ballId[] = null;
 
 	/**
+	 * References to all image view components.
+	 */
+	private List<ImageView> allImages = new ArrayList<ImageView>();
+
+	/**
 	 * Reels symbols references.
 	 */
 	private ImageView[][] symbol = new ImageView[5][3];
@@ -160,6 +169,27 @@ public class GameActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_game);
+
+		/*
+		 * Get references to all image views in the application.
+		 */
+		for (Field field : R.id.class.getDeclaredFields()) {
+			try {
+				if (findViewById(field.getInt(field)) instanceof ImageView) {
+					allImages.add((ImageView) findViewById(field.getInt(field)));
+				}
+			} catch (IllegalAccessException e) {
+			} catch (IllegalArgumentException e) {
+			}
+		}
+
+		/*
+		 * Scale all image views.
+		 */
+		for (ImageView view : allImages) {
+			view.setMaxWidth((int) (view.getMaxWidth() * 1.0));
+			view.setMaxHeight((int) (view.getMaxHeight() * 1.0));
+		}
 
 		symbolId = new int[] { 0, 0, 0, R.drawable.symbol03, R.drawable.symbol04, R.drawable.symbol05,
 				R.drawable.symbol06, R.drawable.symbol07, R.drawable.symbol08, R.drawable.symbol09, R.drawable.symbol10,
