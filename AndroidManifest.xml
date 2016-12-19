@@ -21,7 +21,7 @@
             android:noHistory="true" >
             <meta-data
                 android:name="timeout"
-                android:value="5000" />
+                android:value="500" />
             <meta-data
                 android:name="redirect"
                 android:value="eu.veldsoft.bingo.tropical.hot.GameActivity" />

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="text">#90744D</color>
+
+    <color name="message_bar_text">#90744D</color>
+    <color name="buttons_text">#90744D</color>
+    <color name="sphere_number">#90744D</color>
+    <color name="drawn_number">#A0844D</color>
+    <color name="line_bonus_number">#A0744D</color>
+    <color name="bingo_bonus_number">#90745D</color>
+
 </resources>

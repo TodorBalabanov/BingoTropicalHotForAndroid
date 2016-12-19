@@ -674,14 +674,196 @@
             android:src="@drawable/foreground" />
 
         <TextView
-            android:id="@+id/message"
+            android:id="@+id/message_text"
             android:layout_width="wrap_content"
             android:layout_height="27px"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="560px"
-            android:textColor="@color/text"
+            android:text="Welcome to Bingo Tropical Hot!"
+            android:textColor="@color/message_bar_text"
             android:textSize="22px" />
+
+        <TextView
+            android:id="@+id/credit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110px"
+            android:layout_marginTop="794px"
+            android:text="888888"
+            android:textColor="@color/message_bar_text"
+            android:textSize="22px" />
+
+        <TextView
+            android:id="@+id/spins_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="220px"
+            android:layout_marginTop="794px"
+            android:text="8888"
+            android:textColor="@color/message_bar_text"
+            android:textSize="22px" />
+
+        <TextView
+            android:id="@+id/lines_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="350px"
+            android:layout_marginTop="794px"
+            android:text="88"
+            android:textColor="@color/message_bar_text"
+            android:textSize="22px" />
+
+        <TextView
+            android:id="@+id/coins_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="450px"
+            android:layout_marginTop="794px"
+            android:text="888"
+            android:textColor="@color/message_bar_text"
+            android:textSize="22px" />
+
+        <TextView
+            android:id="@+id/bet_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="548px"
+            android:layout_marginTop="794px"
+            android:text="888"
+            android:textColor="@color/message_bar_text"
+            android:textSize="22px" />
+
+        <TextView
+            android:id="@+id/win_text"
+            android:layout_width="wrap_content"
+            android:layout_height="27px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="654px"
+            android:layout_marginTop="794px"
+            android:text="888888"
+            android:textColor="@color/message_bar_text"
+            android:textSize="22px" />
+
+        <TextView android:layout_marginLeft="114px"            android:id="@+id/card_number_000"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="114px"            android:id="@+id/card_number_001"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="114px"            android:id="@+id/card_number_002"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="162px"            android:id="@+id/card_number_010"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="162px"            android:id="@+id/card_number_011"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="162px"            android:id="@+id/card_number_012"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="202px"            android:id="@+id/card_number_020"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="202px"            android:id="@+id/card_number_021"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="202px"            android:id="@+id/card_number_022"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="246px"            android:id="@+id/card_number_030"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="246px"            android:id="@+id/card_number_031"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="246px"            android:id="@+id/card_number_032"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="290px"            android:id="@+id/card_number_040"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="290px"            android:id="@+id/card_number_041"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="290px"            android:id="@+id/card_number_042"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="334px"            android:id="@+id/card_number_050"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="334px"            android:id="@+id/card_number_051"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="334px"            android:id="@+id/card_number_052"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="378px"            android:id="@+id/card_number_060"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="378px"            android:id="@+id/card_number_061"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="378px"            android:id="@+id/card_number_062"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="422px"            android:id="@+id/card_number_070"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="422px"            android:id="@+id/card_number_071"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="422px"            android:id="@+id/card_number_072"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        
+        <TextView android:layout_marginLeft="466px"            android:id="@+id/card_number_080"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="466px"            android:id="@+id/card_number_081"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="466px"            android:id="@+id/card_number_082"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="535px"            android:id="@+id/card_number_100"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="535px"            android:id="@+id/card_number_101"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="535px"            android:id="@+id/card_number_102"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="579px"            android:id="@+id/card_number_110"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="579px"            android:id="@+id/card_number_111"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="579px"            android:id="@+id/card_number_112"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="623px"            android:id="@+id/card_number_120"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="623px"            android:id="@+id/card_number_121"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="623px"            android:id="@+id/card_number_122"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="667px"            android:id="@+id/card_number_130"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="667px"            android:id="@+id/card_number_131"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="667px"            android:id="@+id/card_number_132"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="711px"            android:id="@+id/card_number_140"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="711px"            android:id="@+id/card_number_141"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="711px"            android:id="@+id/card_number_142"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="755px"            android:id="@+id/card_number_150"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="755px"            android:id="@+id/card_number_151"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="755px"            android:id="@+id/card_number_152"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="799px"            android:id="@+id/card_number_160"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="799px"            android:id="@+id/card_number_161"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="799px"            android:id="@+id/card_number_162"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="843px"            android:id="@+id/card_number_170"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="843px"            android:id="@+id/card_number_171"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="843px"            android:id="@+id/card_number_172"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        
+        <TextView android:layout_marginLeft="887px"            android:id="@+id/card_number_180"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="887px"            android:id="@+id/card_number_181"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="887px"            android:id="@+id/card_number_182"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="956px"            android:id="@+id/card_number_200"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="956px"            android:id="@+id/card_number_201"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="956px"            android:id="@+id/card_number_202"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1000px"            android:id="@+id/card_number_210"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1000px"            android:id="@+id/card_number_211"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1000px"            android:id="@+id/card_number_212"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1044px"            android:id="@+id/card_number_220"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1044px"            android:id="@+id/card_number_221"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1044px"            android:id="@+id/card_number_222"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1088px"            android:id="@+id/card_number_230"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1088px"            android:id="@+id/card_number_231"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1088px"            android:id="@+id/card_number_232"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1132px"            android:id="@+id/card_number_240"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1132px"            android:id="@+id/card_number_241"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1132px"            android:id="@+id/card_number_242"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1176px"            android:id="@+id/card_number_250"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1176px"            android:id="@+id/card_number_251"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1176px"            android:id="@+id/card_number_252"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1220px"            android:id="@+id/card_number_260"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1220px"            android:id="@+id/card_number_261"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1220px"            android:id="@+id/card_number_262"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+
+        <TextView android:layout_marginLeft="1264px"            android:id="@+id/card_number_270"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1264px"            android:id="@+id/card_number_271"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1264px"            android:id="@+id/card_number_272"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        
+        <TextView android:layout_marginLeft="1308px"            android:id="@+id/card_number_280"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="629px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1308px"            android:id="@+id/card_number_281"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="649px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        <TextView android:layout_marginLeft="1308px"            android:id="@+id/card_number_282"            android:layout_width="wrap_content"            android:layout_height="27px"            android:layout_alignParentLeft="true"            android:layout_alignParentTop="true"            android:layout_marginTop="669px"            android:text="88"            android:textColor="@color/sphere_number"            android:textSize="20px" />
+        
     </RelativeLayout>
 
 </RelativeLayout>
